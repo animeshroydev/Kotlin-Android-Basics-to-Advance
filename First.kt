@@ -1,4 +1,4 @@
-Mobile Notification:
+// Mobile Notification:
 
 fun main() {
     val morningNotification = 51
@@ -22,7 +22,7 @@ fun printNotificationSummary(numberOfMessages: Int) {
     println(message)
 }
 
-Movie Ticket Price:
+// Movie Ticket Price:
 
 fun main() {
     val child = 5
@@ -46,7 +46,8 @@ fun ticketPrice(age: Int, isMonday: Boolean): Int {
     return price;
 }
 
-Temperature Converter:
+// Temperature Converter: 
+
 fun main() {
 
    val celToFar = 27.0
@@ -86,7 +87,8 @@ fun printFinalTemperature(
     println("$initialMeasurement degrees $initialUnit is $finalMeasurement degrees $finalUnit.")
 }
 
-Song Catalog:
+// Song Catalog:
+
 fun main() {
 
    val song1 = Song("Game", "Sidhu Moose Wala", 2022, 350000)
@@ -109,7 +111,7 @@ class Song(private val title: String, private val artist: String,
     }
 }
 
-Internet Profile:
+// Internet Profile:
 
 fun main() {
     val amanda = Person("Amanda", 33, "play tennis", null)
@@ -134,7 +136,7 @@ class Person(private val name: String, private val age: Int, val hobby: String?,
     }
 }
 
-Foldable Phone:
+// Foldable Phone:
 
 open class Phone(var isScreenLightOn: Boolean = false) {
     open fun switchOn() {
@@ -187,7 +189,7 @@ fun main() {
     parentClass2.checkPhoneScreenLight()
 }
 
-Special Auction:
+// Special Auction:
 
 fun main() {
     val winningBid = Bid(5000, "Private Collector")
