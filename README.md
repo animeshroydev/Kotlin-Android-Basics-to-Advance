@@ -1,9 +1,9 @@
 # Kotlin Android Basics to Advance 
 
-## AppScreenshots:
+### AppScreenshots:
 As the name says, this folder contains screenshots of all the Apps that is in SampleApps file.
 
-## Kotlin Tasks:
+### Kotlin Tasks:
 Contains all the language feature I practice and it is kept in this file.
 
 Topic Coverted:
